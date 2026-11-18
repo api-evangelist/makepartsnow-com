@@ -1,4 +1,4 @@
-# makepartsnow-com
+# Make Parts Now
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,122 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-makepartsnow-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://makepartsnow.com/
+Make Parts Now provides instant online quotes and ordering for custom 3D printed (SLS, FDM) and CNC machined parts. Users upload CAD files, select materials and finishes, and receive pricing and production timelines before checkout. The service ships across the US with free ground shipping on orders over $50, handling a range of materials including nylon, TPU, aluminum, and brass, and supports export-controlled data compliance.
+
+**Areas:** Manufacturing · 3D Printing · CNC Machining · Custom Parts · E-commerce
+
+## Make Parts Now on APIs.io
+
+Everything profiled for Make Parts Now is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/makepartsnow-com/](https://apis.io/providers/makepartsnow-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Make Parts Now Agent API](https://apis.io/apis/makepartsnow-com/makepartsnow-com-agent-api/) — The agent API from Make Parts Now — 25 operation(s) for agent.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Make Parts Now Agentic Access](https://apis.io/agentic-access/makepartsnow-com/makepartsnow-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AccountIn](https://apis.io/schemas/makepartsnow-com/makepartsnow-com-account-in/)
+- [AccountPatch](https://apis.io/schemas/makepartsnow-com/makepartsnow-com-account-patch/)
+- [CheckoutLink](https://apis.io/schemas/makepartsnow-com/makepartsnow-com-checkout-link/)
+- [ClientEventsIn](https://apis.io/schemas/makepartsnow-com/makepartsnow-com-client-events-in/)
+- [QuoteIn](https://apis.io/schemas/makepartsnow-com/makepartsnow-com-quote-in/)
+- [QuoteView](https://apis.io/schemas/makepartsnow-com/makepartsnow-com-quote-view/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Makepartsnow Com Context](https://apis.io/jsonld/makepartsnow-com/makepartsnow-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Make Parts Now API Rules](https://apis.io/rules/makepartsnow-com/makepartsnow-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Make Parts Now Authentication](https://apis.io/security/makepartsnow-com/makepartsnow-com-authentication/)
+- [Make Parts Now Domain Security](https://apis.io/security/makepartsnow-com/makepartsnow-com-domain-security/)
+- [Make Parts Now Vulnerability Disclosure](https://apis.io/security/makepartsnow-com/makepartsnow-com-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://makepartsnow.com/)
+- [Documentation](https://makepartsnow.com/developers)
+- [Getting started](https://makepartsnow.com/developers#ai-assistants)
+- [Terms of service](https://makepartsnow.com/legal/terms)
+- [Privacy policy](https://makepartsnow.com/legal/privacy)
+- [GitHub](https://github.com/makepartsnow)
+
+## API Evangelist rating
+
+**Kin Score 48.6** — developing · rubric 0.28.0 · scored 2026-11-18
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 51.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 14.3 |
+| Developer ergonomics | 49.3 |
+| Access clarity | 27.7 |
+
+**Agent readiness 37.4** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/makepartsnow-com/](https://apis.io/providers/makepartsnow-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Make Parts Now: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/makepartsnow-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
